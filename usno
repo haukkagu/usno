@@ -5,9 +5,11 @@ xkb_symbols "basic" {
 
     name[Group1]= "USNO";
 
-    key <AD11> {        [ bracketleft,   braceleft,  aring,    Aring    ]        };
-    key <AC10> {        [ semicolon,     colon,      oslash,   Ooblique ]        };
-    key <AC11> {        [ apostrophe,    quotedbl,   ae,       AE       ]        };
+    key <AD11> {        [ bracketleft,   braceleft,    aring,        Aring      ]        };
+    key <AC10> {        [ semicolon,     colon,        oslash,       Ooblique   ]        };
+    key <AC11> {        [ apostrophe,    quotedbl,     ae,           AE         ]        };
+
+    key <LSGT> {        [ grave,         asciitilde,   dead_grave,   dead_tilde ]        };
 
     include "level3(ralt_switch)"
 };
